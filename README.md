@@ -8,7 +8,9 @@ Many of the projects I have contributed to involve data that is in the process o
 
 ## Directory
 * Master's Thesis Work  
-_Imperial College London (Oct 2016-Sept 2017)_
+
+_Imperial College London (Oct 2016-Sept 2017)_  
+
 __An exploration of linkage disequilibrium measurement and interpretation of decay using next generation sequencing data__  
 My focus as a master's student was testing a new method for calculating linkage disequilibrium. This involved simulating data to quantify the method's improvement in accuracy, applying the new method to multiple real data sets, and contributing scripts to the package that applied this new method.  
 
