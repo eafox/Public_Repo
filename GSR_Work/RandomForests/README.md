@@ -10,7 +10,7 @@ This folder includes examples for the following packages:
 
 ## Folders and Contents
 * __Tutorials__  
-Includes data and code for tutorials for each of the packages mentioned above. Also includes a script with information on installing the various packages.
+Includes data and code for tutorials (sourced online, copied, and appropriately cited) for each of the packages mentioned above. Also includes a script with information on installing the various packages.
 * __eDNA_Practice__    
 _Under Construction_  
 
