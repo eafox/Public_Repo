@@ -6,6 +6,7 @@ library(tree)
 ##############
 # TUTORIAL 1 #
 ##############
+# CODE AND DATA COPIED FROM:
 # https://www.r-bloggers.com/classification-trees/
 
 #Load in data set

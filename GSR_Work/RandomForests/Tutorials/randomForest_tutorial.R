@@ -7,6 +7,7 @@ library(randomForest)
 # TUTORIAL 1 #
 ##############
 # short
+# CODE AND DATA COPIED FROM:
 # https://www.r-bloggers.com/random-forests-in-r/
 
 #get data set
@@ -40,6 +41,7 @@ legend("topright",legend=c("Out of Bag Error","Test Error"),pch=19, col=c("red",
 ##############
 # TUTORIAL 2 #
 ##############
+# CODE AND DATA COPIED FROM:
 # http://www.listendata.com/2014/11/random-forest-with-r.html
 
 #DATA PREP
@@ -68,13 +70,3 @@ print(rf)
 #EXAMINE VARIABLE IMPORTANCE
 importance(rf)
 varImpPlot(rf)
-
-##############
-# TUTORIAL 3 #
-##############
-#Load necessary libraries
-library(raster)
-library(tree)
-library(rgeos)
-library(rgdal)
-library(maptools)
