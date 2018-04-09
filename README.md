@@ -23,7 +23,7 @@ Additional Work:
 * Graduate Student Researcher Work  
 _University of California, Los Angeles (Sept 2017-April 2018)_  
 
-I spent several months after my master's program as a PhD student and graduate student researcher at UCLA (though I ultimately decided to not pursue a PhD at this time). My work here involved contributing to analysis the [CALeDNA](http://www.ucedna.com/) team was performing. I learned random forest and network analysis techniques from collaborators outside the lab. I then constructed a repository containing scripts for team members to use on new data and to teach them to apply these techniques independently.  
+I spent several months after my master's program as a PhD student and graduate student researcher at UCLA (though I ultimately decided to not pursue a PhD at that time). My work here involved contributing to analysis the [CALeDNA](http://www.ucedna.com/) team was performing. I learned random forest and network analysis techniques from collaborators outside the lab. I then constructed a repository containing scripts for team members to use on new data and to teach them to apply these techniques independently.  
 
 This directory contains a copy of the repository I created for the team with modifications to keep the data private.    
 _Make sure to click through and see all the READMEs and tutorials_

@@ -8,10 +8,12 @@
 # http://rspatial.org/spatial/rst/8-rastermanip.html
 
 library(raster)
+library(elevatr)
+library(rgdal)
 library(reshape2)
 
 #Import a raster layer
-str_name<-'wc2.0_30s_prec_01.tif' 
+str_name<-"~/Downloads/wc2.0_30s_prec/wc2.0_30s_prec_01.tif" 
 imported_raster<-raster(str_name)
 #Import points to use
 coords<-read.csv("~/Code/UCLA/Starter_Packs/RandomForests/eDNA_Practice/Fox_SampleCoords.csv")
@@ -27,6 +29,8 @@ calmap<-crop(imported_raster,e)
 plot(calmap)
 pts2<-SpatialPoints(pts,proj4string=CRS("+init=epsg:4326")) #puts points in a format than can be 
 plot(pts2,add=TRUE)
+
+elev_df = get_elev_point(pts2, prj = NULL, src = "epqs")
 
 #Bring in ANACAPA output to merge with data frame
 readIn<-read.csv("~/Code/UCLA/Starter_Packs/SpiecEasi/eDNA_Practice/16s.csv",stringsAsFactors = FALSE)
@@ -51,5 +55,3 @@ colnames(anaDF)<-c("MatchName","ASV","Abund")
 #Merge the two data sets
 coords_sub<-subset(coords,Set=="ShrubScrub",select=c(Set,MatchName,Val))
 fullDF<-merge(anaDF,coords_sub,by="MatchName")
-
-
