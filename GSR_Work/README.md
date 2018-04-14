@@ -1,8 +1,24 @@
-# Starter Packs
+# Random and Gradient Forests
 
-#### Welcome!
-This page is for helping CALeDNA affiliated members practice using different analytical methods. Each folder will usually contain tutorials sourced from different web pages (cited) as well as some starter scripts using eDNA data. 
+#### Background
+Random and gradient forests are a system of decision trees. This method is useful as an alternative to a glm for parsing the effect of multiple parameters on a response variable.  
+This folder includes examples for the following packages:  
+* [tree](https://cran.r-project.org/web/packages/tree/index.html)
+* [randomForest](https://cran.r-project.org/web/packages/randomForest/index.html)
+* [gradientForest](http://gradientforest.r-forge.r-project.org/)
+* [LFMM](http://membres-timc.imag.fr/Olivier.Francois/lfmm/software.htm)
 
-## Currently Included Modules
-* Spiec Easi
-* Random Forests
+## Folders and Contents
+* __Tutorials__  
+Includes data and code for tutorials (sourced online, copied, and appropriately cited) for each of the packages mentioned above. ALL TUTORIALS IN THIS FOLDER ARE COPIED FROM OTHER SOURCES ONLINE. Have included the scripts I used to run each of them to check they worked.  
+Also includes a script with information on installing the various packages.  
+* __eDNA_Practice__    
+_Under Construction_  
+
+#### Useful Papers
+1. [Statistical Modeling: The Two Cultures](https://projecteuclid.org/euclid.ss/1009213726)  
+2. [Ecological genomics meets community-level modelling of
+biodiversity: mapping the genomic landscape of current and
+future environmental adaptation](http://onlinelibrary.wiley.com/doi/10.1111/ele.12376/full)  
+3. [Genomic divergence across ecological gradients in the Central
+African rainforest songbird (Andropadus virens)](http://onlinelibrary.wiley.com/doi/10.1111/mec.14270/full)
