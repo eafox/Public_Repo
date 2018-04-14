@@ -9,22 +9,22 @@ library(reshape2)
 # READ IN ALL DATA FILES #
 ##########################
 #List all data files
-inList<-c("~/Downloads/ShrubScrub/ShrubScrub_16S_ASV_sum_by_taxonomy_60.csv",
-          "~/Downloads/ShrubScrub/ShrubScrub_18S_ASV_sum_by_taxonomy_60.csv",
-          "~/Downloads/ShrubScrub/ShrubScrub_CO1_ASV_sum_by_taxonomy_60.csv",
-          "~/Downloads/ShrubScrub/ShrubScrub_FITS_ASV_sum_by_taxonomy_60.csv",
-          "~/Downloads/ShrubScrub/ShrubScrub_PITS_ASV_sum_by_taxonomy_60.csv",
-          "~/Downloads/Forest/Forest_16S_ASV_sum_by_taxonomy_60.csv",
-          "~/Downloads/Forest/Forest_18S_ASV_sum_by_taxonomy_60.csv",
-          "~/Downloads/Forest/Forest_CO1_ASV_sum_by_taxonomy_60.csv",
-          "~/Downloads/Forest/Forest_FITS_ASV_sum_by_taxonomy_60.csv",
-          "~/Downloads/Forest/Forest_PITS_ASV_sum_by_taxonomy_60.csv",
-          "~/Downloads/Coastal/Coastal_12S_ASV_sum_by_taxonomy_60.csv",
-          "~/Downloads/Coastal/Coastal_16S_ASV_sum_by_taxonomy_60.csv",
-          "~/Downloads/Coastal/Coastal_18S_ASV_sum_by_taxonomy_60.csv",
-          "~/Downloads/Coastal/Coastal_CO1_ASV_sum_by_taxonomy_60.csv",
-          "~/Downloads/Coastal/Coastal_FITS_ASV_sum_by_taxonomy_60.csv",
-          "~/Downloads/Coastal/Coastal_PITS_ASV_sum_by_taxonomy_60.csv")
+inList<-c("~/Downloads/SeminarData/ShrubScrub/ShrubScrub_16S_ASV_sum_by_taxonomy_60.csv",
+          "~/Downloads/SeminarData/ShrubScrub/ShrubScrub_18S_ASV_sum_by_taxonomy_60.csv",
+          "~/Downloads/SeminarData/ShrubScrub/ShrubScrub_CO1_ASV_sum_by_taxonomy_60.csv",
+          "~/Downloads/SeminarData/ShrubScrub/ShrubScrub_FITS_ASV_sum_by_taxonomy_60.csv",
+          "~/Downloads/SeminarData/ShrubScrub/ShrubScrub_PITS_ASV_sum_by_taxonomy_60.csv",
+          "~/Downloads/SeminarData/Forest/Forest_16S_ASV_sum_by_taxonomy_60.csv",
+          "~/Downloads/SeminarData/Forest/Forest_18S_ASV_sum_by_taxonomy_60.csv",
+          "~/Downloads/SeminarData/Forest/Forest_CO1_ASV_sum_by_taxonomy_60.csv",
+          "~/Downloads/SeminarData/Forest/Forest_FITS_ASV_sum_by_taxonomy_60.csv",
+          "~/Downloads/SeminarData/Forest/Forest_PITS_ASV_sum_by_taxonomy_60.csv",
+          "~/Downloads/SeminarData/Coastal/Coastal_12S_ASV_sum_by_taxonomy_60.csv",
+          "~/Downloads/SeminarData/Coastal/Coastal_16S_ASV_sum_by_taxonomy_60.csv",
+          "~/Downloads/SeminarData/Coastal/Coastal_18S_ASV_sum_by_taxonomy_60.csv",
+          "~/Downloads/SeminarData/Coastal/Coastal_CO1_ASV_sum_by_taxonomy_60.csv",
+          "~/Downloads/SeminarData/Coastal/Coastal_FITS_ASV_sum_by_taxonomy_60.csv",
+          "~/Downloads/SeminarData/Coastal/Coastal_PITS_ASV_sum_by_taxonomy_60.csv")
 datList<-list()
 
 #Read in each of the files to a list of data frames and adjust sample names to match across sets
