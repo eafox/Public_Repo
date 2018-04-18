@@ -12,8 +12,20 @@ This folder includes examples for the following packages:
 * __Tutorials__  
 Includes data and code for tutorials (sourced online, copied, and appropriately cited) for each of the packages mentioned above. ALL TUTORIALS IN THIS FOLDER ARE COPIED FROM OTHER SOURCES ONLINE. Have included the scripts I used to run each of them to check they worked.  
 Also includes a script with information on installing the various packages.  
-* __eDNA_Practice__    
-_Under Construction_  
+* __eDNA_Practice__  
+_Data Cleaning and Mining_  
+Combine_DataSets.R - Take all 16 primer result ASV files and combine them into one data set with columns representing unique ASVs and each row representing a sample.  
+Collapse_byTaxonomy.R - Can take the combined ASV file from the team drive and collapse the data down to a specific taxonomic level (phylum, order, class, etc.).   
+Get_Layers.R - Script showing how some of the data layers were downloaded and how values were extracted.   
+_Tutorials_
+These tutorials use the combined ASV data from the team drive to show an example of how to use the various techniques with our data.  
+  
+eDNA_Tree_Tutorial.R  
+eDNA_RandomForest_Tutorial.R  
+eDNA_GradientForest_Tutorial.R  
+
+
+
 
 #### Useful Papers
 1. [Statistical Modeling: The Two Cultures](https://projecteuclid.org/euclid.ss/1009213726)  
