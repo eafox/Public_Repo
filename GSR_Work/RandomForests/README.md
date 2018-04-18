@@ -17,9 +17,8 @@ _Data Cleaning and Mining_
 Combine_DataSets.R - Take all 16 primer result ASV files and combine them into one data set with columns representing unique ASVs and each row representing a sample.  
 Collapse_byTaxonomy.R - Can take the combined ASV file from the team drive and collapse the data down to a specific taxonomic level (phylum, order, class, etc.).   
 Get_Layers.R - Script showing how some of the data layers were downloaded and how values were extracted.   
-_Tutorials_
+_Tutorials_  
 These tutorials use the combined ASV data from the team drive to show an example of how to use the various techniques with our data.  
-  
 eDNA_Tree_Tutorial.R  
 eDNA_RandomForest_Tutorial.R  
 eDNA_GradientForest_Tutorial.R  
