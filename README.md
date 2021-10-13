@@ -2,7 +2,7 @@
 
 #### Welcome!
 
-I am a junior data scientist with 3 years of experience in R and 2 years of experience in Python and shell scripting. I have a background in biology and ecology, specifically working with genetic data and training other scientists in related analytical methods.  
+I am a Data scientist with 3 years of industry experience and 2 years of academic experience in Python, R, and shell scripting. I have a background in biology and ecology, specifically working with genetic data and training other scientists in related analytical methods.  
 
 Many of the projects I have contributed to involve data that is in the process of being published. So, I created this repository as a way to showcase my work and make some of my tutorials public without releasing any data prematurely. 
 
