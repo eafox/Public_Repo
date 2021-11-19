@@ -27,3 +27,7 @@ I spent several months after my master's program as a PhD student and graduate s
 
 This directory contains a copy of the repository I created for the team with modifications to keep the data private.    
 _Make sure to click through and see all the READMEs and tutorials_
+
+* Miscellaneous Work
+
+In this directory, I have included an interview challenge that I completed in 2018 (shared with permission of the challenge author)
