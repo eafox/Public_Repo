@@ -48,10 +48,10 @@ For example, consider the matrix m:\
  [0,0,0,0,0,0]  # s5 is terminal\
 ]
 
-So, we consider different paths to terminal states, such as:
+So, we consider different paths to terminal states, such as:\
 s0 -> s1 -> s3\
 s0 -> s1 -> s0 -> s1 -> s0 -> s1 -> s4\
-s0 -> s1 -> s0 -> s5\
+s0 -> s1 -> s0 -> s5
 
 Tracing the probabilities of each, we find that \
 s2 has probability 0\
@@ -65,23 +65,27 @@ the form of \
 which is \
 [0, 3, 2, 9, 14]
 
-Test cases\
-Inputs: (int) m = [[0, 2, 1, 0, 0], [0, 0, 0, 3, 4], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0]]
+Test cases
 
+Inputs: (int) m = [[0, 2, 1, 0, 0], [0, 0, 0, 3, 4], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0]]\
 Output: (int list) [7, 6, 8, 21]
 
-Inputs: (int) m = [[0, 1, 0, 0, 0, 1], [4, 0, 0, 3, 2, 0], [0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0]]
-
+Inputs: (int) m = [[0, 1, 0, 0, 0, 1], [4, 0, 0, 3, 2, 0], [0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0]]\
 Output: (int list) [0, 3, 2, 9, 14]
 
 ## My Response:
 _see interview_challenge_2018-EmmaFox.py for code_
 
-The script contains a function (and its dependent) functions to solve for the final distribution between terminal states. The script can be run \
-A) On its own from the terminal (ex: python3 UC_challenge_2018-EmmaFox.py) or python command-line which will print out the answers to the test cases. \
-B) From the terminal with an input matrix. Ex: \
+The script contains a function (and its dependent) functions to solve for the final distribution between terminal states. The script can be run 
+
+A) On its own from the terminal. Ex: \
+_python3 UC_challenge_2018-EmmaFox.py_ \
+or python command-line which will print out the answers to the test cases. 
+
+B) From the terminal with an input matrix. Ex: 
 _python3 UC_challenge_2018-EmmaFox.py "[[0, 2, 1, 0, 0], [0, 0, 0, 3, 4], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0]]"_\
-This will print out the final distribution for that particular input matrix. \
+This will print out the final distribution for that particular input matrix. 
+
 C) From within python either using the step-by-step code at the bottom of the file or using the full pipeline function "main()" with a custom input matrix. 
 
 I chose to solve the problem by taking advantage of the fact that the system behaves as an absorbent Markov chain. I had some experience with transition matrices because they're used in ecology to calculate the stable age-structure of a population. Though my previous experience was mostly with eigen-analysis, I was able to expand upon this with further linear algebra research in order to determine which type of problem this situation fit into. 

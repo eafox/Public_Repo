@@ -30,4 +30,4 @@ _Make sure to click through and see all the READMEs and tutorials_
 
 * Miscellaneous Work
 
-In this directory, I have included an interview challenge that I completed in 2018 (shared with permission of the challenge author)
+In this directory, I have included an interview challenge that I completed in 2018 (shared with permission of the challenge author).
